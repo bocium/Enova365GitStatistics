@@ -1,7 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Mos.Enova365.GitStatistics.Extender;
 using Mos.Enova365.GitStatistics.Models;
-using Mos.Enova365.GitStatistics.Models.Github;
 using Mos.Enova365.GitStatistics.Repositories;
 using System.Collections.Generic;
 using System.Linq;
