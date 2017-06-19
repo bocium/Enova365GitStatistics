@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<DataForm xmlns="http://www.enova.pl/schema/form.xsd" Priority="100">
+  <Page CaptionHtml="Commit Statistics" DataContext="{DataSource}">
+    <Group CaptionHtml="Daily Commit Statistics">
+      <Row>
+        <Stack Width="200" Height="5">
+          <Grid EditValue="{DailyCommitStatistics}" Width="150" Height="5">
+            <Field CaptionHtml="Committer" Width="20" EditValue="{Committer}" />
+            <Field CaptionHtml="Day" Width="20" EditValue="{CommitDate}" />
+            <Field CaptionHtml="Commits Count" Width="20" EditValue="{CommitsCount}" />
+          </Grid>
+        </Stack>
+      </Row>
+    </Group>
+    <Group CaptionHtml="Average Commits Per User">
+      <Row>
+        <Stack Width="200" Height="5">
+          <Grid EditValue="{AverageCommitStatistics}" Width="150" Height="5">
+            <Field CaptionHtml="Committer" Width="20" EditValue="{Committer}" />
+            <Field CaptionHtml="Commits Count" Width="20" EditValue="{CommitsCount}" />
+          </Grid>
+        </Stack>
+      </Row>
+    </Group>
+  </Page>
+</DataForm>
