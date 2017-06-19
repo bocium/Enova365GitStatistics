@@ -76,7 +76,6 @@
   <ItemGroup>
     <Compile Include="Repositories\GithubRepository.cs" />
     <Compile Include="Repositories\IGitRepository.cs" />
-    <Compile Include="Extender\CfgCommitStatisticsExtender.cs" />
     <Compile Include="Models\Github\Branch.cs" />
     <Compile Include="Models\Github\Commit.cs" />
     <Compile Include="Models\AverageCommitStatistic.cs" />
@@ -100,9 +99,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="UI\Config.CfgCommitStatisticsExtender.pageform.xml">
-      <SubType>Designer</SubType>
-    </Content>
     <EmbeddedResource Include="Utils\git_logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

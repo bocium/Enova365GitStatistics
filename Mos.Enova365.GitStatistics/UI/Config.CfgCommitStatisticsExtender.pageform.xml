@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<DataForm xmlns="http://www.enova.pl/schema/form.xsd" Priority="1">
-  <Page CaptionHtml="Git Statistics Settings" DataContext="{new CfgCommitStatisticsExtender}">
-    <Group CaptionHtml="Repository Settings">
-      <Field CaptionHtml="Repository Name" LabelWidth="30" Width="8" EditValue="{RepositoryName}"/>
-    </Group>
-  </Page>
-</DataForm>
